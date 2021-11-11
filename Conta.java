@@ -65,16 +65,17 @@ public class Conta {
         }
     }
 
-    public String verificaChequeEspecial(){
+    public void verificaChequeEspecial(){
         String teste;
 
         if(this.especial == true){
             teste = "Tem cheque especial";
+            
         }else{
             teste = "Nao tem cheque especial";
         }
 
-        return teste;
+        System.out.println(teste);
     }
 
     public void verSaldo(){
